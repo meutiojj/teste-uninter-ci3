@@ -1,0 +1,16 @@
+{% extends 'html5-base.twig' %}
+{% block js_lazy %}
+{{ parent() }}
+	<script src="{{ js_url('kanban.js') }}"></script>
+{% endblock %}
+{% block css_lazy %}
+{{ parent() }}
+	<link href="{{ css_url('kanban.css') }}" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block body %}
+{{parent()}}
+    <div class="container-fluid">
+    <h3 class='text-danger text-center'>Twig funcionando</h3>
+    </div>
+
+{%endblock%}

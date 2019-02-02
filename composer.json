@@ -1,0 +1,13 @@
+{
+	"config":{
+	"vendor-dir":"application/vendor"
+	},	
+	"suport":{
+	"twig-Install":"http://acmeextension.com/integrate-twig-with-codeigniter/"
+	},
+	"require": {
+		"php": "7",
+		"twig/twig": "^2.0",
+		"twbs/bootstrap": "4.0.0"
+	}
+}
